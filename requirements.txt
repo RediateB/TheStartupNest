@@ -1,0 +1,14 @@
+Flask==2.3.3
+Flask-Bcrypt==1.0.1
+Flask-Cors==4.0.0
+flask-login==0.6.3
+flask-restx==1.1.0
+flask-sqlalchemy==3.1.1
+flask_migrate==4.0.5
+hurry.filesize==0.9
+pip==23.3.1
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+setuptools==68.2.2
+wheel==0.41.2
+Werkzeug==2.3.7
