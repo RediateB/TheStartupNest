@@ -13,9 +13,6 @@ ssl_mode = 'require'
 
 # create engine and session
 engine = create_engine(
-    f"postgresql://{os.environ.get('DATABASE_USERNAME')}:"
-    f"{os.environ.get('DATABASE_PASSWORD')}@{os.environ.get('DATABASE_HOST')}:"
-    f"{os.environ.get('DATABASE_PORT')}/{os.environ.get('APP_DATABASE')}",
-    connect_args={"sslmode": "require"}
+   " postgresql://phase2:Nedamcoacademy2@phase2. postgres. database. azure.com:5432/startupnest_db"
 )
 Session = sessionmaker(bind=engine)

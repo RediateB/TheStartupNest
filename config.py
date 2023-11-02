@@ -11,6 +11,6 @@ class Config:
     CORS_HEADERS = "Content-Type"
     # SESSION_COOKIE_SECURE = True
     # SESSION_COOKIE_SAMESITE = 'None'
-    SQLALCHEMY_DATABASE_URI = f"postgresql://{os.environ.get('DATABASE_USERNAME')}:" \
-                              f"{os.environ.get('DATABASE_PASSWORD')}@{os.environ.get('DATABASE_HOST')}:" \
-                              f"{os.environ.get('DATABASE_PORT')}/{os.environ.get('APP_DATABASE')}"
+    SQLALCHEMY_DATABASE_URI = " postgresql://phase2:Nedamcoacademy2@phase2. postgres. database. azure.com:5432/startupnest_db"
+
+
