@@ -16,6 +16,6 @@ engine = create_engine(
     f"postgresql://{os.environ.get('DATABASE_USERNAME')}:"
     f"{os.environ.get('DATABASE_PASSWORD')}@{os.environ.get('DATABASE_HOST')}:"
     f"{os.environ.get('DATABASE_PORT')}/{os.environ.get('APP_DATABASE')}",
-    connect_args={"sslmode": "disable"}
+    connect_args={"sslmode": "require"}
 )
 Session = sessionmaker(bind=engine)
