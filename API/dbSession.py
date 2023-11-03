@@ -13,6 +13,6 @@ ssl_mode = 'require'
 
 # create engine and session
 engine = create_engine(
-   " postgresql://phase2:Nedamcoacademy2@phase2. postgres. database. azure.com:5432/startupnest_db"
+   " postgresql://phase2:Nedamcoacademy2@phase2.postgres.database.azure.com:5432/startupnest_db"
 )
 Session = sessionmaker(bind=engine)
